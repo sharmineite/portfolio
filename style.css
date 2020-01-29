@@ -8,6 +8,14 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h1 {
+    font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+
 #nav-list-toggle {
     display: none;
 }
@@ -87,9 +95,11 @@ body {
     text-decoration: none;
 }
 
-.personal-picture {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.intro {
+    padding: 10px;
+    text-align: center;
+}
+
+.intro__item {
+    list-style-type: none;
 }

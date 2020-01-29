@@ -1,0 +1,1 @@
+const introItems = document.getElementsByClassName('intro__item');
